@@ -3,27 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello</title>
+    <title>Hello World</title>
     <style>
         body {
+            margin: 0;
+            height: 100vh;
             display: flex;
-            font-family: DejaVu Sans Mono, monospace;
-            flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            margin: 0;
-            text-align: center;
+            overflow: hidden;
             background-color: #f9ed9e;
         }
         img {
-            width: 400px;
-            box-shadow: 5px 5px 5px black;
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
         }
     </style>
 </head>
 <body>
-    <br>
     <img src="medistone-landing.png" />
 </body>
 </html>
